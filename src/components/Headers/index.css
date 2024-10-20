@@ -91,19 +91,23 @@
 .more-icon{
     display: none;
 }
-.psy-heading-small{
-    display: none;
-}
-.logo-small{
-    display: none;
-}
+
+
 
 .down-icon {
     margin-left: 5px;
 }
 
-
-@media screen and (max-width: 576px) {
+@media screen and (min-width:768px) {
+    .logo-small{
+        display: none;
+    }
+    .psy-heading-small{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 767px) {
     .nav-bar-logo {
         display: none;
     }
