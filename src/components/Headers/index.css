@@ -1,0 +1,173 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 50px;
+    padding: 14px;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+   padding: 20px;
+
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0px;
+    margin-left: 80px;
+    
+
+}
+
+.nav-bar-logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+    margin-left: 0px;
+}
+
+.nav-icon {
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.psy-heading {
+    color: #ffffff;
+    padding: 4px;
+    margin-top: 40px;
+    font-family: "sans-serif";
+    text-align: center;
+
+}
+
+.btn {
+    background-color: rgb(208, 182, 36);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: "Roboto";
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav-menu-item {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.more-icon{
+    display: none;
+}
+.psy-heading-small{
+    display: none;
+}
+.logo-small{
+    display: none;
+}
+
+.down-icon {
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .nav-bar-logo {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        height: 70px;
+        padding: 14px;
+
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin-left: 0px;
+        position: fixed;
+        width: 100%;
+       
+
+    }
+
+
+    .logo-small {
+        width: 60px;
+        height: 50px;
+        justify-content: flex-end;
+
+    }
+
+    .psy-heading-small {
+        color: #ffffff;
+        padding: 4px;
+        margin-top: 40px;
+        font-family: "serif";
+        font-size: 15px;
+    }
+
+    .psy-heading {
+        display: none;
+    }
+
+    .mobile-screen-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+    }
+
+    .more-icon {
+        margin-left: 220px;
+        margin-right: auto;
+        color: gold;
+        display: flex;
+        font-size: 40px;
+    }
+
+
+}
