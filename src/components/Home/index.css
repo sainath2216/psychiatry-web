@@ -152,25 +152,7 @@ h1 {
     font-weight: bold;
     border: none;
 }
-@media screen and (max-width:768px) {
-    .image-container {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 280px;
-    height: 280px;
-    border: 4px solid #e2c789;
-    margin-right: 50px;
-    margin-left: 50px;
-}
 
-.focus-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-    
-    
-}
 
 .arrow-icon{
     font-size: 15px;
@@ -179,6 +161,32 @@ h1 {
 
 .learn-more-btn:hover {
     background-color: #b38e58;
+}
+
+@media screen and (max-width: 768px) {
+    .mental-health-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image-container {
+        margin: 0 auto 20px; /* Center the image and add margin */
+    }
+
+    .text-container {
+        max-width: 100%; /* Allow text container to take full width */
+        text-align: center;
+    }
+    .focus-image {
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+    .text-container {
+        
+        text-align: left;
+        order: 2;
+    }
 }
 .black-container{
     background-color: #000;
@@ -279,9 +287,8 @@ h1 {
 /* Make it responsive */
 @media screen and (max-width: 768px) {
     .choose-container {
-        flex-direction: column; 
-        padding-bottom: 0px;
-        
+        flex-direction: column; /* Stack image and text */
+        text-align: center; /* Center text */
     }
 
     .why-heading {
@@ -298,10 +305,10 @@ h1 {
        
     }
     .choose-text-container{
-        margin-top: 0px;
+        margin: 0 auto
     }
     .choose-img-container {
-        margin-bottom: 0px;
+        margin: 0 auto
         
     }
 }
@@ -479,7 +486,7 @@ h1 {
     color: #6b6b6b;
   }
   
-  /* FAQ Section */
+  
   .faq-section {
     text-align: center;
     padding: 50px 20px;
@@ -559,14 +566,14 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     flex-wrap: wrap; 
 }
 
 .footer-links {
-    margin: 20px;
-    padding: 5px;
+    margin: 8px;
+    padding: 3px;
 }
 
 .footer-contact {
@@ -578,7 +585,7 @@ h1 {
 
 .f-header {
     color: gold;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 9px;
     font-family: "Verdana, Geneva, Tahoma, sans-serif";
     margin-top: 0px;
@@ -586,7 +593,7 @@ h1 {
 
 .f-des {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0px;
 }
 
@@ -629,6 +636,11 @@ h1 {
     color: #ffffff;
     font-size: 25px;
     padding-right: 14px;
+}
+.social-icon:hover {
+    background-color: #b38e58;
+   
+
 }
 
 .copy-rights-container {
@@ -682,16 +694,13 @@ h1 {
     }
 
     .footer-container {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center; 
+        flex-direction: column;
         align-items: center;
     }
 
     .footer-links {
-        width: 50%; 
-        max-width: 150px; 
-        margin: 10px; 
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .footer-contact {

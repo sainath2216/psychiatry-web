@@ -308,6 +308,7 @@ const Home = () => {
                                     <h1 className='f-header'>Locate Us</h1>
                                     <p className='f-des'>
                                         1820 E Ray Road, STE A107,
+                                        <br/>
                                         Chandler, Arizona 85225
                                         Phone: 480-526-9292</p>
                                     <h1 className='f-header'>Follow Us</h1>
