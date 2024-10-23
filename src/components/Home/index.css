@@ -152,6 +152,25 @@ h1 {
     font-weight: bold;
     border: none;
 }
+@media screen and (max-width:768px) {
+    .image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    border: 4px solid #e2c789;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.focus-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+    
+}
 
 .arrow-icon{
     font-size: 15px;
@@ -199,6 +218,7 @@ h1 {
 }
 .service-img{
     margin-top: 4px;
+    object-fit: cover;
 
 }
 .btn-container{
@@ -234,6 +254,7 @@ h1 {
     max-width: 100%; 
     height: auto;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .choose-text-container {
@@ -273,6 +294,7 @@ h1 {
     .why-img{
         margin-bottom: 0px;
         padding-bottom: 0px;
+        
        
     }
     .choose-text-container{
@@ -412,7 +434,7 @@ h1 {
     font-size: 50px;
 }
 
-/* States Section */
+
 .states-section {
     text-align: center;
     background-color: #faf5e8;
@@ -442,6 +464,7 @@ h1 {
     height: 150px;
     border-top-left-radius: 90%;
     border-top-right-radius: 90%;
+    object-fit: cover;
     
   }
   
@@ -733,7 +756,7 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px; /* Add spacing between footer and copyright */
+        margin-top: 20px; 
     }
 
     .c-rights-description {
@@ -750,7 +773,7 @@ h1 {
 }
 
 
-  /* Responsive design */
+ 
   @media screen and (max-width: 767px) {
     .states-container {
       flex-direction: column;

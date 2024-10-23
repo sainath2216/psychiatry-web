@@ -53,9 +53,7 @@ class FaqItem extends Component {
       <li className="faq-item">
         <div className="q-container">
         {this.renderActiveIcon()}
-        
           <h1 className="question">{questionText}</h1>
-
         </div>
         <hr className="line2" />
         {this.renderAnswer()}

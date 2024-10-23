@@ -1,3 +1,4 @@
+
 .nav-header {
     display: flex;
     justify-content: space-between;
@@ -10,9 +11,9 @@
     position: fixed;
     width: 100%;
     margin-bottom: 10px;
-   padding: 20px;
-
+    padding: 20px;
 }
+
 
 .nav-content {
     display: flex;
@@ -21,9 +22,8 @@
     width: 100%;
     padding: 15px 0px;
     margin-left: 80px;
-    
-
 }
+
 
 .nav-bar-logo {
     display: flex;
@@ -33,11 +33,14 @@
     margin-right: 40px;
 }
 
+
 .logo {
     width: 90px;
     height: 50px;
     margin-left: 0px;
+    object-fit: contain;
 }
+
 
 .nav-icon {
     border: none;
@@ -45,14 +48,15 @@
     background-color: transparent;
 }
 
+
 .psy-heading {
     color: #ffffff;
     padding: 4px;
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: "sans-serif";
     text-align: center;
-
 }
+
 
 .btn {
     background-color: rgb(208, 182, 36);
@@ -65,6 +69,7 @@
     font-family: "Roboto";
 }
 
+
 .nav-menu {
     display: flex;
     flex-direction: row;
@@ -74,6 +79,7 @@
     margin: 0;
     padding: 20px;
 }
+
 
 .nav-menu-item {
     font-family: 'Roboto';
@@ -88,25 +94,42 @@
     text-decoration: none;
     color: #ffffff;
 }
-.more-icon{
+
+.more-icon {
     display: none;
 }
-
-
 
 .down-icon {
     margin-left: 5px;
 }
 
+
 @media screen and (min-width:768px) {
-    .logo-small{
+    .logo-small {
         display: none;
     }
-    .psy-heading-small{
+
+    .psy-heading-small {
         display: none;
     }
-    
+
+    .psy-heading {
+        color: #ffffff;
+        padding: 4px;
+        margin-top: 35px;
+        font-family: "sans-serif";
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 50px;
+        margin-left: 0px;
+    }
 }
+
+
 @media screen and (max-width: 767px) {
     .nav-bar-logo {
         display: none;
@@ -123,7 +146,6 @@
         background-color: #000000;
         height: 70px;
         padding: 14px;
-
     }
 
     .nav-content {
@@ -134,16 +156,12 @@
         margin-left: 0px;
         position: fixed;
         width: 100%;
-       
-
     }
-
 
     .logo-small {
         width: 60px;
         height: 50px;
-        justify-content: flex-end;
-
+        object-fit: contain;
     }
 
     .psy-heading-small {
@@ -152,6 +170,8 @@
         margin-top: 40px;
         font-family: "serif";
         font-size: 15px;
+        margin-left: 0px;
+        text-align: left;
     }
 
     .psy-heading {
@@ -159,19 +179,18 @@
     }
 
     .mobile-screen-container {
+        width: 400px;
+    }
+
+    .more-icon-container {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
-        width: auto;
     }
 
     .more-icon {
-        margin-left: 220px;
-        margin-right: auto;
         color: gold;
         display: flex;
         font-size: 40px;
     }
-
-
 }

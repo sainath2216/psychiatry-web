@@ -11,9 +11,7 @@ const Faqs = props => {
             <div className="bg-container">
                 <div className="bg-card">
                     <ul className="faqs-list">
-                        <h1 className="why-heading">
-                            Why should you choose Ada Psychiatry?
-                        </h1>
+                        
                         {faqsList.map(eachFaq => (
                             <FaqItem key={eachFaq.id} faqDetails={eachFaq} />
                         ))}

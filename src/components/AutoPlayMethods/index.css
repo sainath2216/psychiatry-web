@@ -1,0 +1,217 @@
+.slider-container {
+    width: 90%;
+    padding: 20px;
+}
+
+.review-card {
+    background-color: antiquewhite;
+    width: 460px;
+    border-radius: 20px;
+    padding: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.quaot {
+    color: black;
+    font-family: "cursive";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.quaot-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: normal;
+    padding: 5px;
+
+}
+
+.info-card {
+    background-color: rgb(218, 136, 30);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 450px;
+    padding: 6px;
+     
+}
+
+.review-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    object-fit: cover;
+    
+}
+
+.profile-name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+   
+}
+
+.profile-location {
+    color: #fff;
+    font-weight: normal;
+    font-size: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width:787px) {
+    .slider-container {
+        width: 90%;
+        padding: 20px;
+        
+    }
+    
+    .review-card {
+        background-color: antiquewhite;
+        width: 250px;
+        border-radius: 20px;
+        padding: 3px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+    }
+    
+    .quaot {
+        color: black;
+        font-family: "cursive";
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
+    
+    }
+    
+    .quaot-description {
+        color: black;
+        font-family: "Roboto";
+        font-size: 17px;
+        font-weight: normal;
+        padding: 5px;
+    
+    }
+    
+    .info-card {
+        background-color: rgb(218, 136, 30);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 240px;
+        padding: 6px;
+         
+    }
+    
+    .review-img {
+        width: 30px;
+        height: 30px;
+        border: 3px solid #fff;
+        border-radius: 40px;
+        margin-top: 10px;
+        
+    }
+    
+    .profile-name {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+       
+    }
+    
+    .profile-location {
+        color: #fff;
+        font-weight: normal;
+        font-size: 8px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width:577px) {
+    .slider-container {
+        width: 90%;
+        padding: 20px;
+        
+    }
+    
+    .review-card {
+        background-color: antiquewhite;
+        width: 150px;
+        border-radius: 20px;
+        padding: 3px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+    }
+    
+    .quaot {
+        color: black;
+        font-family: "cursive";
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
+    
+    }
+    
+    .quaot-description {
+        color: black;
+        font-family: "Roboto";
+        font-size: 17px;
+        font-weight: normal;
+        padding: 5px;
+    
+    }
+    
+    .info-card {
+        background-color: rgb(218, 136, 30);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 140px;
+        padding: 6px;
+         
+    }
+    
+    .review-img {
+        width: 30px;
+        height: 30px;
+        border: 3px solid #fff;
+        border-radius: 40px;
+        margin-top: 10px;
+        
+    }
+    
+    .profile-name {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+       
+    }
+    
+    .profile-location {
+        color: #fff;
+        font-weight: normal;
+        font-size: 8px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+}

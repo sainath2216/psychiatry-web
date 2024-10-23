@@ -1,6 +1,6 @@
 import React from 'react';
 import Headers from "../Headers"
-import Reviews from "../Reviews"
+import AutoPlayMethods from "../AutoPlayMethods"
 import Faqs from "../Faqs"
 import { Link } from 'react-router-dom';
 import ReactSlick from '../ReactSlick'
@@ -13,6 +13,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
+
 
 import "./index.css"
 
@@ -173,7 +174,9 @@ const Home = () => {
                             <div className="choose-text-container">
 
                                 <div className="why-text">
-
+                                <h1 className="why-heading">
+                                    Why should you choose Ada Psychiatry?
+                                </h1>
                                     <Faqs faqsList={faqsList} />
 
                                 </div>
@@ -248,6 +251,7 @@ const Home = () => {
                         <div className='question-container'>
                             <h1 className='f-question-header'>Frequently asked questions</h1>
                             <div className='questions'>
+                                
                                 <Faqs faqsList={faqsList} />
                             </div>
                         </div>
@@ -258,9 +262,9 @@ const Home = () => {
                     <section>
                         <div className='review-container'>
                             <h1 className='main-heading'>What Our Patients Are saying</h1>
-                            <Reviews />
+                            <AutoPlayMethods />
                         </div>
-                        
+
                     </section>
                     <section className='footer-section'>
                         <div className='footer-container'>

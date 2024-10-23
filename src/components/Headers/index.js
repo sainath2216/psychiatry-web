@@ -46,13 +46,16 @@ const Headers = () => {
                 </div>
 
                 <div className='mobile-screen-container'>
-                    
+                    <div className='more-icon-container'>
+
                         <img src="https://www.adapsychiatry.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.d9ef92fd.png&w=128&q=100" alt="logo" className='logo-small' />
                         <h1 className='psy-heading-small'>PSYCHIATRY</h1>
-                   
-                    <div>
+
                         <VscThreeBars className='more-icon' />
+
                     </div>
+                    
+
                 </div>
             </div>
         </nav>
