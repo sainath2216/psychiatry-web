@@ -201,7 +201,7 @@ h1 {
 .services-container{
     margin-top: 0px;
     background-color: #f6eacf;
-    padding: 20px;
+    padding: 70px;
 }
 .service-heading{
     padding: 13px;
@@ -211,17 +211,17 @@ h1 {
 .services-cards{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
    
 }
 .card-container{
     background-color: #e8dac5;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 150px;
-    padding: 15px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     
 }
 .service-img{
@@ -239,6 +239,7 @@ h1 {
     color: #000;
     font-weight: 700;
     font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 15px;
     
 }
 .choose-container {
