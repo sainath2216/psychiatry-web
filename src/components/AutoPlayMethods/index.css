@@ -1,11 +1,11 @@
 .slider-container {
-    width: 90%;
+    width: 100%;
     padding: 20px;
 }
 
 .review-card {
     background-color: antiquewhite;
-    width: 460px;
+    width: 440px;
     border-radius: 20px;
     padding: 3px;
     margin-right: 5px;
@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 450px;
+    width: 430px;
     padding: 6px;
      
 }

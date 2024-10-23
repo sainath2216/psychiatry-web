@@ -323,11 +323,11 @@ h1 {
 .start-container{
     margin-top: 0px;
     background-color: #000;
-    padding: 20px;
+    padding: 9px;
 
 }
 .start-heading{
-    padding: 13px;
+    padding: 8px;
     font-family: "sans-serif";
     font-size: 34px;
     color: #ffffff;
@@ -343,11 +343,11 @@ h1 {
 }
 .start-card-container{
     width: 100px;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-right: 100px;
 }
 .start-icons{
-    font-size: 79px;
+    font-size: 69px;
     color: #ffffff;
 
 }
